@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874E16E71D6D98CD00A8E4C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E16E61D6D98CD00A8E4C0 /* main.m */; };
+		874E16EA1D6D98CD00A8E4C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E16E91D6D98CD00A8E4C0 /* AppDelegate.m */; };
+		874E16ED1D6D98CD00A8E4C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E16EC1D6D98CD00A8E4C0 /* ViewController.m */; };
+		874E16F01D6D98CD00A8E4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874E16EE1D6D98CD00A8E4C0 /* Main.storyboard */; };
+		874E16F31D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 874E16F11D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodeld */; };
+		874E16F51D6D98CD00A8E4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874E16F41D6D98CD00A8E4C0 /* Assets.xcassets */; };
+		874E16F81D6D98CD00A8E4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874E16F61D6D98CD00A8E4C0 /* LaunchScreen.storyboard */; };
+		874E17031D6D98CD00A8E4C0 /* SSJsonModelToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E17021D6D98CD00A8E4C0 /* SSJsonModelToolTests.m */; };
+		874E170E1D6D98CD00A8E4C0 /* SSJsonModelToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E170D1D6D98CD00A8E4C0 /* SSJsonModelToolUITests.m */; };
+		874E171E1D6D990000A8E4C0 /* NSObject+SS_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E171D1D6D990000A8E4C0 /* NSObject+SS_Model.m */; };
+		874E17241D6D999000A8E4C0 /* SS_Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E17231D6D999000A8E4C0 /* SS_Json.m */; };
+		874E17281D6D9B1000A8E4C0 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E17271D6D9B1000A8E4C0 /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874E16FF1D6D98CD00A8E4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874E16DA1D6D98CD00A8E4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874E16E11D6D98CD00A8E4C0;
+			remoteInfo = SSJsonModelTool;
+		};
+		874E170A1D6D98CD00A8E4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874E16DA1D6D98CD00A8E4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874E16E11D6D98CD00A8E4C0;
+			remoteInfo = SSJsonModelTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		874E16E21D6D98CD00A8E4C0 /* SSJsonModelTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSJsonModelTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874E16E61D6D98CD00A8E4C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874E16E81D6D98CD00A8E4C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		874E16E91D6D98CD00A8E4C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		874E16EB1D6D98CD00A8E4C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		874E16EC1D6D98CD00A8E4C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		874E16EF1D6D98CD00A8E4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		874E16F21D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSJsonModelTool.xcdatamodel; sourceTree = "<group>"; };
+		874E16F41D6D98CD00A8E4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874E16F71D6D98CD00A8E4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		874E16F91D6D98CD00A8E4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874E16FE1D6D98CD00A8E4C0 /* SSJsonModelToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSJsonModelToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		874E17021D6D98CD00A8E4C0 /* SSJsonModelToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSJsonModelToolTests.m; sourceTree = "<group>"; };
+		874E17041D6D98CD00A8E4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874E17091D6D98CD00A8E4C0 /* SSJsonModelToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSJsonModelToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		874E170D1D6D98CD00A8E4C0 /* SSJsonModelToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSJsonModelToolUITests.m; sourceTree = "<group>"; };
+		874E170F1D6D98CD00A8E4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874E171C1D6D990000A8E4C0 /* NSObject+SS_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SS_Model.h"; sourceTree = "<group>"; };
+		874E171D1D6D990000A8E4C0 /* NSObject+SS_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SS_Model.m"; sourceTree = "<group>"; };
+		874E17221D6D999000A8E4C0 /* SS_Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_Json.h; sourceTree = "<group>"; };
+		874E17231D6D999000A8E4C0 /* SS_Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_Json.m; sourceTree = "<group>"; };
+		874E17251D6D9AD200A8E4C0 /* SS_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_Header.h; sourceTree = "<group>"; };
+		874E17261D6D9B1000A8E4C0 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		874E17271D6D9B1000A8E4C0 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874E16DF1D6D98CD00A8E4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E16FB1D6D98CD00A8E4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E17061D6D98CD00A8E4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874E16D91D6D98CD00A8E4C0 = {
+			isa = PBXGroup;
+			children = (
+				874E16E41D6D98CD00A8E4C0 /* SSJsonModelTool */,
+				874E17011D6D98CD00A8E4C0 /* SSJsonModelToolTests */,
+				874E170C1D6D98CD00A8E4C0 /* SSJsonModelToolUITests */,
+				874E16E31D6D98CD00A8E4C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874E16E31D6D98CD00A8E4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874E16E21D6D98CD00A8E4C0 /* SSJsonModelTool.app */,
+				874E16FE1D6D98CD00A8E4C0 /* SSJsonModelToolTests.xctest */,
+				874E17091D6D98CD00A8E4C0 /* SSJsonModelToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874E16E41D6D98CD00A8E4C0 /* SSJsonModelTool */ = {
+			isa = PBXGroup;
+			children = (
+				874E171B1D6D98D400A8E4C0 /* SSJsonModelTool */,
+				874E16E81D6D98CD00A8E4C0 /* AppDelegate.h */,
+				874E16E91D6D98CD00A8E4C0 /* AppDelegate.m */,
+				874E16EB1D6D98CD00A8E4C0 /* ViewController.h */,
+				874E16EC1D6D98CD00A8E4C0 /* ViewController.m */,
+				874E17261D6D9B1000A8E4C0 /* Dog.h */,
+				874E17271D6D9B1000A8E4C0 /* Dog.m */,
+				874E16EE1D6D98CD00A8E4C0 /* Main.storyboard */,
+				874E16F41D6D98CD00A8E4C0 /* Assets.xcassets */,
+				874E16F61D6D98CD00A8E4C0 /* LaunchScreen.storyboard */,
+				874E16F91D6D98CD00A8E4C0 /* Info.plist */,
+				874E16F11D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodeld */,
+				874E16E51D6D98CD00A8E4C0 /* Supporting Files */,
+			);
+			path = SSJsonModelTool;
+			sourceTree = "<group>";
+		};
+		874E16E51D6D98CD00A8E4C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874E16E61D6D98CD00A8E4C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874E17011D6D98CD00A8E4C0 /* SSJsonModelToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				874E17021D6D98CD00A8E4C0 /* SSJsonModelToolTests.m */,
+				874E17041D6D98CD00A8E4C0 /* Info.plist */,
+			);
+			path = SSJsonModelToolTests;
+			sourceTree = "<group>";
+		};
+		874E170C1D6D98CD00A8E4C0 /* SSJsonModelToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				874E170D1D6D98CD00A8E4C0 /* SSJsonModelToolUITests.m */,
+				874E170F1D6D98CD00A8E4C0 /* Info.plist */,
+			);
+			path = SSJsonModelToolUITests;
+			sourceTree = "<group>";
+		};
+		874E171B1D6D98D400A8E4C0 /* SSJsonModelTool */ = {
+			isa = PBXGroup;
+			children = (
+				874E171C1D6D990000A8E4C0 /* NSObject+SS_Model.h */,
+				874E171D1D6D990000A8E4C0 /* NSObject+SS_Model.m */,
+				874E17221D6D999000A8E4C0 /* SS_Json.h */,
+				874E17231D6D999000A8E4C0 /* SS_Json.m */,
+				874E17251D6D9AD200A8E4C0 /* SS_Header.h */,
+			);
+			name = SSJsonModelTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874E16E11D6D98CD00A8E4C0 /* SSJsonModelTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874E17121D6D98CD00A8E4C0 /* Build configuration list for PBXNativeTarget "SSJsonModelTool" */;
+			buildPhases = (
+				874E16DE1D6D98CD00A8E4C0 /* Sources */,
+				874E16DF1D6D98CD00A8E4C0 /* Frameworks */,
+				874E16E01D6D98CD00A8E4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSJsonModelTool;
+			productName = SSJsonModelTool;
+			productReference = 874E16E21D6D98CD00A8E4C0 /* SSJsonModelTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		874E16FD1D6D98CD00A8E4C0 /* SSJsonModelToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874E17151D6D98CD00A8E4C0 /* Build configuration list for PBXNativeTarget "SSJsonModelToolTests" */;
+			buildPhases = (
+				874E16FA1D6D98CD00A8E4C0 /* Sources */,
+				874E16FB1D6D98CD00A8E4C0 /* Frameworks */,
+				874E16FC1D6D98CD00A8E4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874E17001D6D98CD00A8E4C0 /* PBXTargetDependency */,
+			);
+			name = SSJsonModelToolTests;
+			productName = SSJsonModelToolTests;
+			productReference = 874E16FE1D6D98CD00A8E4C0 /* SSJsonModelToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		874E17081D6D98CD00A8E4C0 /* SSJsonModelToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874E17181D6D98CD00A8E4C0 /* Build configuration list for PBXNativeTarget "SSJsonModelToolUITests" */;
+			buildPhases = (
+				874E17051D6D98CD00A8E4C0 /* Sources */,
+				874E17061D6D98CD00A8E4C0 /* Frameworks */,
+				874E17071D6D98CD00A8E4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874E170B1D6D98CD00A8E4C0 /* PBXTargetDependency */,
+			);
+			name = SSJsonModelToolUITests;
+			productName = SSJsonModelToolUITests;
+			productReference = 874E17091D6D98CD00A8E4C0 /* SSJsonModelToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874E16DA1D6D98CD00A8E4C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = scrum_snail;
+				TargetAttributes = {
+					874E16E11D6D98CD00A8E4C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					874E16FD1D6D98CD00A8E4C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 874E16E11D6D98CD00A8E4C0;
+					};
+					874E17081D6D98CD00A8E4C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 874E16E11D6D98CD00A8E4C0;
+					};
+				};
+			};
+			buildConfigurationList = 874E16DD1D6D98CD00A8E4C0 /* Build configuration list for PBXProject "SSJsonModelTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874E16D91D6D98CD00A8E4C0;
+			productRefGroup = 874E16E31D6D98CD00A8E4C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874E16E11D6D98CD00A8E4C0 /* SSJsonModelTool */,
+				874E16FD1D6D98CD00A8E4C0 /* SSJsonModelToolTests */,
+				874E17081D6D98CD00A8E4C0 /* SSJsonModelToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874E16E01D6D98CD00A8E4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E16F81D6D98CD00A8E4C0 /* LaunchScreen.storyboard in Resources */,
+				874E16F51D6D98CD00A8E4C0 /* Assets.xcassets in Resources */,
+				874E16F01D6D98CD00A8E4C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E16FC1D6D98CD00A8E4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E17071D6D98CD00A8E4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874E16DE1D6D98CD00A8E4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E171E1D6D990000A8E4C0 /* NSObject+SS_Model.m in Sources */,
+				874E16ED1D6D98CD00A8E4C0 /* ViewController.m in Sources */,
+				874E16EA1D6D98CD00A8E4C0 /* AppDelegate.m in Sources */,
+				874E17241D6D999000A8E4C0 /* SS_Json.m in Sources */,
+				874E17281D6D9B1000A8E4C0 /* Dog.m in Sources */,
+				874E16E71D6D98CD00A8E4C0 /* main.m in Sources */,
+				874E16F31D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E16FA1D6D98CD00A8E4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E17031D6D98CD00A8E4C0 /* SSJsonModelToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E17051D6D98CD00A8E4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E170E1D6D98CD00A8E4C0 /* SSJsonModelToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874E17001D6D98CD00A8E4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874E16E11D6D98CD00A8E4C0 /* SSJsonModelTool */;
+			targetProxy = 874E16FF1D6D98CD00A8E4C0 /* PBXContainerItemProxy */;
+		};
+		874E170B1D6D98CD00A8E4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874E16E11D6D98CD00A8E4C0 /* SSJsonModelTool */;
+			targetProxy = 874E170A1D6D98CD00A8E4C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874E16EE1D6D98CD00A8E4C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874E16EF1D6D98CD00A8E4C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		874E16F61D6D98CD00A8E4C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874E16F71D6D98CD00A8E4C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874E17101D6D98CD00A8E4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		874E17111D6D98CD00A8E4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874E17131D6D98CD00A8E4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSJsonModelTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SSJsonModelTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		874E17141D6D98CD00A8E4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSJsonModelTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SSJsonModelTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		874E17161D6D98CD00A8E4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSJsonModelToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SSJsonModelToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSJsonModelTool.app/SSJsonModelTool";
+			};
+			name = Debug;
+		};
+		874E17171D6D98CD00A8E4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSJsonModelToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SSJsonModelToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSJsonModelTool.app/SSJsonModelTool";
+			};
+			name = Release;
+		};
+		874E17191D6D98CD00A8E4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSJsonModelToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SSJsonModelToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSJsonModelTool;
+			};
+			name = Debug;
+		};
+		874E171A1D6D98CD00A8E4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSJsonModelToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SSJsonModelToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSJsonModelTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874E16DD1D6D98CD00A8E4C0 /* Build configuration list for PBXProject "SSJsonModelTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E17101D6D98CD00A8E4C0 /* Debug */,
+				874E17111D6D98CD00A8E4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874E17121D6D98CD00A8E4C0 /* Build configuration list for PBXNativeTarget "SSJsonModelTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E17131D6D98CD00A8E4C0 /* Debug */,
+				874E17141D6D98CD00A8E4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		874E17151D6D98CD00A8E4C0 /* Build configuration list for PBXNativeTarget "SSJsonModelToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E17161D6D98CD00A8E4C0 /* Debug */,
+				874E17171D6D98CD00A8E4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		874E17181D6D98CD00A8E4C0 /* Build configuration list for PBXNativeTarget "SSJsonModelToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E17191D6D98CD00A8E4C0 /* Debug */,
+				874E171A1D6D98CD00A8E4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		874E16F11D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				874E16F21D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodel */,
+			);
+			currentVersion = 874E16F21D6D98CD00A8E4C0 /* SSJsonModelTool.xcdatamodel */;
+			path = SSJsonModelTool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 874E16DA1D6D98CD00A8E4C0 /* Project object */;
+}
